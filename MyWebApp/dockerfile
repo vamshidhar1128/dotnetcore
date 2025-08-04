@@ -24,4 +24,5 @@ EXPOSE 5000
 ENV DOTNET_RUNNING_IN_CONTAINER=true \
     ASPNETCORE_URLS=http://0.0.0.0:5000
 
-ENTRYPOINT ["dotnet", WebApp.dll"]
+ENTRYPOINT ["dotnet", "WebApp.dll"]
+
